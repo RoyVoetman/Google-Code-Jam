@@ -1,4 +1,4 @@
-#Problem Oversized Pancake Flipper
+# Problem Oversized Pancake Flipper
 
 Last year, the Infinite House of Pancakes introduced a new kind of pancake. It has a happy face made of chocolate chips on one side (the "happy side"), and nothing on the other side (the "blank side").
 
@@ -10,15 +10,15 @@ Your apprentice cook, who is still learning the job, just used the old-fashioned
 
 Given the current state of the pancakes, calculate the minimum number of uses of the oversized pancake flipper needed to leave all pancakes happy side up, or state that there is no way to do it.
 
-##Input
+## Input
 
 The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line with a string S and an integer K. S represents the row of pancakes: each of its characters is either + (which represents a pancake that is initially happy side up) or - (which represents a pancake that is initially blank side up).
 
-##Output
+## Output
 
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is either IMPOSSIBLE if there is no way to get all the pancakes happy side up, or an integer representing the the minimum number of times you will need to use the oversized pancake flipper to do it.
 
-##Limits
+## Limits
 
 ```
 1 ≤ T ≤ 100.
@@ -36,7 +36,7 @@ Large dataset:
 2 ≤ length of S ≤ 1000.
 ```
 
-##Sample
+## Sample
 
 Input:
 ```
@@ -53,10 +53,10 @@ Case #2: 0
 Case #3: IMPOSSIBLE
 ```
 
-In Case #1, you can get all the pancakes happy side up by first flipping the leftmost 3 pancakes, getting to ++++-++-, then the rightmost 3, getting to ++++---+, and finally the 3 pancakes that remain blank side up. There are other ways to do it with 3 flips or more, but none with fewer than 3 flips.
+In Case 1, you can get all the pancakes happy side up by first flipping the leftmost 3 pancakes, getting to ++++-++-, then the rightmost 3, getting to ++++---+, and finally the 3 pancakes that remain blank side up. There are other ways to do it with 3 flips or more, but none with fewer than 3 flips.
 
-In Case #2, all of the pancakes are already happy side up, so there is no need to flip any of them.
+In Case 2, all of the pancakes are already happy side up, so there is no need to flip any of them.
 
-In Case #3, there is no way to make the second and third pancakes from the left have the same side up, because any flip flips them both. Therefore, there is no way to make all of the pancakes happy side up.
+In Case 3, there is no way to make the second and third pancakes from the left have the same side up, because any flip flips them both. Therefore, there is no way to make all of the pancakes happy side up.
 
 [Link to problem set](https://code.google.com/codejam/contest/3264486/dashboard)
