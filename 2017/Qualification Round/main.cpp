@@ -24,10 +24,10 @@ int main() {
         for(int j = 0; j < pancake_amount; j++)
             pancakes[j] = (S[j] == '+');
 
-        /* Flip pancakes when a 'blank size' found */
+        /* Flip pancakes when a 'blank side' found */
         for(int j = 0; j <= pancake_amount - K; j++) {
 
-            /* when current pancake is 'blank size' flip 'K' pancakes from left to right */
+            /* when current pancake is 'blank side' flip 'K' pancakes from left to right */
             if(!pancakes[j]) {
                 for(int x = 0; x < K; x++) {
                     pancakes[j + x] = !pancakes[j + x];
@@ -37,7 +37,7 @@ int main() {
 
         }
 
-        /* check if all pancakes are happy size */
+        /* check if all pancakes are happy side */
         for(int j = 0; j < pancake_amount; j++) {
             if( pancakes[j] != pancakes[0] ) {
                 possible = false;
