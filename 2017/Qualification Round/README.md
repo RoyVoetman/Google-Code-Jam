@@ -46,7 +46,7 @@ Input:
 -+-+- 4
 ```
 
-Output
+Output:
 ```
 Case #1: 3
 Case #2: 0
