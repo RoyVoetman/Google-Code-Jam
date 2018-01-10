@@ -55,7 +55,7 @@ CA
 KE
 ```
 
-Output;
+Output:
 ```
 Case #1:
 GGJ
