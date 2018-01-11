@@ -93,7 +93,7 @@ int main() {
                 if(blank_cells == cake_columns) {
 
                     //If there are no solved rows yet
-                    if(cake[r-1][c] == NULL || cake[r-1][c] == '?') {
+                    if(r-1 == -1 || cake[r-1][c] == '?') {
 
                         blank_rows++;
 
