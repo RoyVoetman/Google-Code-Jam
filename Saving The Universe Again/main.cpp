@@ -6,7 +6,7 @@ int main() {
 
     int case_amount;
 
-    /* Ask the amount of test cases (T) */
+    /* Ask the number of test cases (T) */
     cin >> case_amount;
 
     /* For each test case */
