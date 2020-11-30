@@ -7,7 +7,7 @@ int main() {
     string S;
 
 
-    /* ask for the amount of test cases */
+    /* ask for the number of test cases */
     cin >> T;
     cin >> ws; // stream out any whitespace
 
