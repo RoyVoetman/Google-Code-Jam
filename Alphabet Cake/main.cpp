@@ -7,7 +7,7 @@ int main() {
         cake_rows,
         cake_columns;
 
-    //Ask the amount of test cases (T)
+    //Ask the number of test cases (T)
     cin >> case_amount;
 
     //For each test case
